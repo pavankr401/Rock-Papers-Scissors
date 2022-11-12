@@ -1,0 +1,88 @@
+*{
+  user-select: none;
+  padding: 0;
+  margin: 0;
+
+}
+body{
+
+  background: linear-gradient(black,blue,blue, black);
+  font-family: sans-serif;
+}
+h1{
+  text-align: center;
+  padding: 20px;
+  color: white;
+}
+
+#score{
+  text-align: center;
+  font-size: 24px;
+  margin: 10px;
+}
+
+.user{
+  color: rgb(245, 255, 154);
+}
+
+.comp{
+  color: rgb(13, 255, 0);
+}
+
+img{
+  width: 100px;
+  height: auto;
+  cursor: pointer;
+}
+
+#container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  height: 500px;
+}
+
+#images-holder{
+  width: 140px;
+}
+
+#images-holder div{
+  margin: 5px;
+}
+#images-holder img:hover{
+  border: 5px solid rgb(255, 255, 0);
+}
+
+.option-holder div{
+  width: 150px;
+  height: 150px;
+  border: 2px solid white;
+  margin: 20px;
+}
+
+.option-holder h3{
+  color: white;
+  text-align: center;
+}
+
+.option-holder img{
+  margin: 15px 0 0 25px;
+}
+
+button{
+  cursor: pointer;
+}
+
+
+#popup{
+  display: none;
+  width: 200px;
+  height: 100px;
+  background-color: yellow;
+  position: relative;
+  left: -280px;
+  color: black;
+  text-align: center;
+  font-size: 28px;
+}
